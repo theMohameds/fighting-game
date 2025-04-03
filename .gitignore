@@ -84,3 +84,13 @@ Thumbs.db
 *.tmp
 *.bak
 .kotlin/
+
+
+# New rules for persistent Gradle files
+**/buildOutputCleanup*
+**/executionHistory*
+**/fileHashes*
+**/checksums*
+**/*.lock
+**/*.bin
+**/gc.properties
