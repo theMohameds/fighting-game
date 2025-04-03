@@ -12,6 +12,7 @@ import org.common.services.ECSPlugin;
 
 // 1) Import the GameMap class from the GameMap package
 import GameMap.GameMap;
+import org.common.utils.CoreResources;
 
 import java.util.ServiceLoader;
 

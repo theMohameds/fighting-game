@@ -12,6 +12,8 @@ dependencies {
   api "com.badlogicgames.gdx:gdx:$gdxVersion"
   implementation project(":GameMap")
   implementation project(":Common")
+  implementation project(":Player")
+
 
 
   if(enableGraalNative == 'true') {

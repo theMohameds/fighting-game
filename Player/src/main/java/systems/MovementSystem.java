@@ -8,7 +8,7 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.*;
 import components.Player;
-import io.group9.CoreResources;
+import org.common.utils.CoreResources;
 
 public class MovementSystem extends EntitySystem {
     private Player playerComponent = new Player();

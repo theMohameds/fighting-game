@@ -1,4 +1,5 @@
 module Common {
-    exports org.common.services.ECSPlugin;
+    exports org.common.services;
+    exports org.common.utils;
 
 }

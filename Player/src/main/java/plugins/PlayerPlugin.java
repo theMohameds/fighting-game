@@ -3,7 +3,7 @@ package plugins;
 import com.badlogic.ashley.core.Engine;
 import com.badlogic.ashley.core.Entity;
 import com.badlogic.gdx.physics.box2d.*;
-import io.group9.CoreResources;
+import org.common.utils.CoreResources;
 import org.common.services.ECSPlugin;
 import components.Player;
 import systems.Movement2;

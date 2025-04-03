@@ -1,4 +1,4 @@
-package io.group9;
+package org.common.utils;
 
 import com.badlogic.gdx.physics.box2d.World;
 
