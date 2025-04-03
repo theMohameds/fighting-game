@@ -14,6 +14,17 @@ gradle-app.setting
 /headless/build/
 /server/build/
 /shared/build/
+#core
+/gdx/libs
+/backends/gdx-backend-jglfw/libs/
+/backends/gdx-backend-robovm/libs/
+/extensions/gdx-audio/libs/
+/extensions/gdx-box2d/gdx-box2d/libs/
+/extensions/gdx-bullet/libs/
+/extensions/gdx-freetype/libs/
+/extensions/gdx-image/libs/
+/extensions/gdx-lwjgl3-angle/res
+/extensions/gdx-lwjgl3-glfw-awt-macos/res/
 
 ## Java:
 *.class

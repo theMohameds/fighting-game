@@ -8,9 +8,12 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.physics.box2d.Box2DDebugRenderer;
+import org.common.services.ECSPlugin;
 
 // 1) Import the GameMap class from the GameMap package
 import GameMap.GameMap;
+
+import java.util.ServiceLoader;
 
 /** First screen of the application. Displayed after the application is created. */
 public class FirstScreen implements Screen {
@@ -26,6 +29,7 @@ public class FirstScreen implements Screen {
     public void show() {
         // Create the Box2D world
         world = new World(new Vector2(0, -10), true);
+        CoreResources.setWorld(world);
 
         // Create a debug renderer to visualize physics bodies
         debugRenderer = new Box2DDebugRenderer();
@@ -41,6 +45,18 @@ public class FirstScreen implements Screen {
         // 3) Instantiate your GameMap, passing in the Box2D world, camera,
         //    path to .tmx, and collision layer index
         gameMap = new GameMap(world, camera, "map/New4.tmx", 2);
+
+        ServiceLoader<ECSPlugin> loader = ServiceLoader.load(ECSPlugin.class);
+        int count = 0;
+        for (ECSPlugin plugin : loader) {
+            Gdx.app.log("Main", "Loaded plugin: " + plugin.getClass().getName());
+            plugin.registerSystems(engine);
+            plugin.createEntities(engine);
+            count++;
+        }
+        if (count == 0) {
+            Gdx.app.log("Main", "No ECSPlugin implementations found.");
+        }
     }
 
     @Override

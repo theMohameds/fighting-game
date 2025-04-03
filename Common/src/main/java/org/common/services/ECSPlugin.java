@@ -1,4 +1,4 @@
-package services;
+package org.common.services;
 
 import com.badlogic.ashley.core.Engine;
 
