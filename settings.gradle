@@ -10,4 +10,6 @@ include 'GameMap'
 include 'GameCamera'
 include 'Common'
 include 'Player'
+include 'GameMap'
+include 'GameCamera'
 
