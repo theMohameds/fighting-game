@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ff8cd89-f82c-407d-93ef-ee1cbbe10b78" name="Changes" comment=":)">
-      <change afterPath="$PROJECT_DIR$/GameCamera/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameCamera/src/main/java/org/gamecamera/GameCamera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameMap/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameMap/src/main/java/GameMap/GameMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assets.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
     </list>
     <list id="8870c4a6-f0ac-4059-b39c-1de79118af65" name="Changes by christoffersteentoft" comment="" />
     <list id="fdcb506f-06e4-40e3-9974-54a63018e2c2" name="Changes by jacobrasmussen" comment="" />
@@ -169,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743681097834</updated>
       <workItem from="1743681101795" duration="4564000" />
-      <workItem from="1743685696158" duration="526000" />
+      <workItem from="1743685696158" duration="1173000" />
     </task>
     <task id="LOCAL-00001" summary=":)">
       <option name="closed" value="true" />
@@ -179,11 +175,30 @@
       <option name="project" value="LOCAL" />
       <updated>1743685811756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=":)">
+      <option name="closed" value="true" />
+      <created>1743686265251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743686265251</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=":)" />
